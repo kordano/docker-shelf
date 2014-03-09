@@ -1,0 +1,2 @@
+#!/bin/bash
+cd /opt; lein uberjar; lein cljsbuild once
