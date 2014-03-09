@@ -1,2 +1,2 @@
 #!/bin/bash
-java -jar /usr/local/src/lambda-shelf/target/lambda-shelf-standalone.jar
+java -jar /opt/lambda-shelf/target/lambda-shelf-standalone.jar

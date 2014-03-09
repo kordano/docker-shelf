@@ -1,2 +1,2 @@
 #!/bin/bash
-cd /opt; lein uberjar; lein cljsbuild once
+cd /opt/lambda-shelf; lein uberjar; lein cljsbuild once
