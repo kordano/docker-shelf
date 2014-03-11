@@ -6,7 +6,7 @@ ADD ./opt /opt
 RUN apt-get update
 
 # Install and setup project dependencies
-RUN apt-get install -y curl git maven
+RUN apt-get install -y curl git
 
 # prepare for Java download
 RUN apt-get install -y software-properties-common
