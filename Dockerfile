@@ -10,8 +10,8 @@ RUN apt-get install -y curl git
 
 # prepare for Java download
 RUN apt-get install -y software-properties-common
-RUN apt-get -y install openjdk-7-jre-headless
-ENV JAVA_HOME /usr/lib/jvm/java-7-openjdk-amd64
+RUN apt-get -y install openjdk-6-jre-headless
+ENV JAVA_HOME /usr/lib/jvm/java-6-openjdk-amd64
 
 # grab leiningen
 RUN curl https://raw.github.com/technomancy/leiningen/stable/bin/lein -o /usr/local/bin/lein
