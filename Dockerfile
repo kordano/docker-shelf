@@ -24,6 +24,9 @@ RUN git clone https://github.com/kordano/lambda-shelf.git /opt/lambda-shelf
 # define port
 EXPOSE 8080
 
+# get dependencies
+RUN /opt/get-shelf-deps
+
 # create uberjar with leiningen
 RUN /opt/build-shelf
 
