@@ -16,7 +16,7 @@ ENV JAVA_HOME /usr/lib/jvm/java-6-openjdk-amd64
 # grab leiningen
 RUN curl https://raw.github.com/technomancy/leiningen/stable/bin/lein -o /usr/local/bin/lein
 RUN chmod +x /usr/local/bin/lein
-ENV LEIN_ROOT=yes
+ENV LEIN_ROOT yes
 RUN lein
 
 # grab project
