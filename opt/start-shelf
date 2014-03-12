@@ -1,2 +1,2 @@
 #!/bin/bash
-/opt/build-shelf; java -jar /opt/lambda-shelf/target/lambda-shelf-standalone.jar
+/opt/build-shelf; java -jar /opt/lambda-shelf/target/lambda-shelf-standalone.jar 2>> /opt/shelf-log &
