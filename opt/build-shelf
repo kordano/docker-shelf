@@ -1,2 +1,2 @@
 #!/bin/bash
-cd /opt/lambda-shelf; git pull; lein cljsbuild once; lein uberjar
+cd /opt/lambda-shelf; git pull; lein clean; lein cljsbuild clean; lein cljsbuild once; lein uberjar
