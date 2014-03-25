@@ -8,10 +8,10 @@ Build it
 sudo docker build -rm -t <username>/lambda-shelf .
 ```
 
-Install and run couchdb
+Install and run [klaemo/couchdb](https://index.docker.io/u/klaemo/couchdb/ "klaemo/couchdb")
 ```
 sudo docker pull klaemo/couchdb
-sudo docker run -p 5984:5984 klaemo/couchdb
+sudo docker run -d -p 5984:5984 -name couchdb klaemo/couchdb
 ```
 
 Run it
